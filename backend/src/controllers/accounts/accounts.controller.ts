@@ -5,7 +5,7 @@ export class AccountsController {
 
     @Get('/Login')
     getLogin(){
-        return 'Login Page'
+        return 'Login Page for users'
     }
 
     @Get('/Signup')
